@@ -1,6 +1,7 @@
 html {
     width: 100%;
-    
+    background: linear-gradient( to bottom right, #06D6A0, #FFD166);
+    background-attachment: fixed;
 }
 
 body {
@@ -13,16 +14,22 @@ h1, img {
 }
 
 h1, h2 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #48233C;
 }
 
 img {
     display: block;
     margin: 0 auto;
+    border-radius: 7px;
 }
 
 td {
     padding: 4px;
+}
+
+#main-container {
+    background-color: hsla(272, 17, 89, 0.7);
 }
 
 #intro {
@@ -33,5 +40,4 @@ td {
     float: right;
     width: 400px;
     margin: 20px;
-    border-radius: 7px;
 }
